@@ -1,0 +1,27 @@
+/* styles.css */
+
+.cursor {
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}
+
+/* Optional: Add styles for the text container */
+.text-container {
+  /* Add any additional styles you want for the text container */
+  font-family: "Arial", sans-serif;
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid #000; /* Simulate cursor */
+  white-space: nowrap; /* Prevent line breaks */
+  margin: 0;
+  padding: 10px;
+}
